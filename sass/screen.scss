@@ -4,3 +4,85 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* charte graphique */
+$rouge: #e1d5f4; .rouge{background: $rouge}.rouge-color{color: $rouge};
+$rougeFonce: #e1d5f4; .rougeFonce{background: $rougeFonce}.rougeFonce-color{color: $rougeFonce};
+$rougeClair: #e1d5f4; .rougeClair{background: $rougeClair}.rougeClair-color{color: $rougeClair};
+$typo: #e1d5f4; .typo{background: $typo}.typo-color{color: $typo};
+
+
+h2{
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:1.7rem;
+
+	color:$rouge;
+
+	padding-top:2rem;
+	padding-bottom:1rem;
+}
+
+p{
+	text-align:justify;
+}
+
+body{
+  display: flex;
+  font-size:100%;
+  line-height:1.5em;
+  font-family: 'Roboto', sans-serif;
+
+  background: #ffffff;
+}
+
+#sidebar{
+  background: #f5f7f8;
+  width:250px;
+  border-right:1px solid grey;
+  .fixed{
+  	position: fixed;
+  	width: 250px;
+  }
+  ul{
+	  li{
+	    a{
+			display: block;
+			padding: 1rem 0;
+			border-bottom: 1px solid grey;
+
+			text-decoration: none;
+			text-align:center;
+			text-transform: uppercase;
+
+			color:#333333;
+			background:#D1D1D1;
+
+			&:hover {
+				background:#666;
+				color:#ffffff;
+		    }
+		    &:active {
+				background:#333;
+				color:#ffffff;
+		    }
+		    &:focus {
+				background:#333;
+				color:#ffffff;
+		    }
+	    }
+	  }
+
+	}
+}
+
+section{
+  
+  padding-left:1rem;
+  padding-right:1rem;
+  border-bottom: 2px solid grey;
+  .menuSection{
+
+  }
+}

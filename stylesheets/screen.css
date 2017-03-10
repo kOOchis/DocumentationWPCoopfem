@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,129 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* charte graphique */
+.rouge {
+  background: #e1d5f4;
+}
+
+.rouge-color {
+  color: #e1d5f4;
+}
+
+.rougeFonce {
+  background: #e1d5f4;
+}
+
+.rougeFonce-color {
+  color: #e1d5f4;
+}
+
+.rougeClair {
+  background: #e1d5f4;
+}
+
+.rougeClair-color {
+  color: #e1d5f4;
+}
+
+.typo {
+  background: #e1d5f4;
+}
+
+.typo-color {
+  color: #e1d5f4;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: #e1d5f4;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  text-align: justify;
+}
+
+body {
+  display: flex;
+  font-size: 100%;
+  line-height: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+}
+
+#sidebar {
+  background: #f5f7f8;
+  width: 250px;
+  border-right: 1px solid grey;
+}
+#sidebar .fixed {
+  position: fixed;
+  width: 250px;
+}
+#sidebar ul li a {
+  display: block;
+  padding: 1rem 0;
+  border-bottom: 1px solid grey;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background: #D1D1D1;
+}
+#sidebar ul li a:hover {
+  background: #666;
+  color: #ffffff;
+}
+#sidebar ul li a:active {
+  background: #333;
+  color: #ffffff;
+}
+#sidebar ul li a:focus {
+  background: #333;
+  color: #ffffff;
+}
+
+section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: 2px solid grey;
 }
