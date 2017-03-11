@@ -7,10 +7,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* charte graphique */
-$rouge: #e1d5f4; .rouge{background: $rouge}.rouge-color{color: $rouge};
-$rougeFonce: #e1d5f4; .rougeFonce{background: $rougeFonce}.rougeFonce-color{color: $rougeFonce};
-$rougeClair: #e1d5f4; .rougeClair{background: $rougeClair}.rougeClair-color{color: $rougeClair};
-$typo: #e1d5f4; .typo{background: $typo}.typo-color{color: $typo};
+$rouge: #8E161C; .rouge{background: $rouge}.rouge-color{color: $rouge};
+$rougeFonce: #640B0A; .rougeFonce{background: $rougeFonce}.rougeFonce-color{color: $rougeFonce};
+$rougeClair: #ce8382; .rougeClair{background: $rougeClair}.rougeClair-color{color: $rougeClair};
+$bleu: #4682cb; .bleu{background: $bleu}.bleu-color{color: $bleu};
+$typo: #333; .typo{background: $typo}.typo-color{color: $typo};
 
 
 h2{
@@ -24,8 +25,16 @@ h2{
 	padding-bottom:1rem;
 }
 
+h3{
+	/* padding-bottom:0.7rem; */
+	font-size:1.2rem;
+	color:$bleu;
+	font-weight:bold;
+}
+
 p{
 	text-align:justify;
+	padding-bottom:1rem;
 }
 
 body{
@@ -50,25 +59,26 @@ body{
 	    a{
 			display: block;
 			padding: 1rem 0;
-			border-bottom: 1px solid grey;
+			border-bottom: 1px solid #fff;
 
 			text-decoration: none;
 			text-align:center;
 			text-transform: uppercase;
+			font-weight: bold;
 
-			color:#333333;
-			background:#D1D1D1;
+			background:$rouge;
+			color:#fff;
 
 			&:hover {
-				background:#666;
+				background:$rougeFonce;
 				color:#ffffff;
 		    }
 		    &:active {
-				background:#333;
+				background:$rougeClair;
 				color:#ffffff;
 		    }
 		    &:focus {
-				background:#333;
+				background:$rougeClair;
 				color:#ffffff;
 		    }
 	    }
@@ -78,11 +88,18 @@ body{
 }
 
 section{
-  
   padding-left:1rem;
   padding-right:1rem;
-  border-bottom: 2px solid grey;
-  .menuSection{
-
+  h3{
+  	cursor:pointer; 
+  	border-bottom: 2px solid #4682cb; 
+  	margin-bottom: 1rem;
+  	span{
+  		float: right;
+  	}
   }
+}
+
+.toggle{
+	display:none;
 }

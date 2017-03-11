@@ -20,8 +20,6 @@ var largeurSection = section.style.width = soustractionEcranEtSection - 48;
 window.onload = myFunction;
 window.onresize = myFunction;
 
-window.onresize = resize;
-
 
 
 

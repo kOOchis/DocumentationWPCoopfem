@@ -61,48 +61,64 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* charte graphique */
 .rouge {
-  background: #e1d5f4;
+  background: #8E161C;
 }
 
 .rouge-color {
-  color: #e1d5f4;
+  color: #8E161C;
 }
 
 .rougeFonce {
-  background: #e1d5f4;
+  background: #640B0A;
 }
 
 .rougeFonce-color {
-  color: #e1d5f4;
+  color: #640B0A;
 }
 
 .rougeClair {
-  background: #e1d5f4;
+  background: #ce8382;
 }
 
 .rougeClair-color {
-  color: #e1d5f4;
+  color: #ce8382;
+}
+
+.bleu {
+  background: #4682cb;
+}
+
+.bleu-color {
+  color: #4682cb;
 }
 
 .typo {
-  background: #e1d5f4;
+  background: #333;
 }
 
 .typo-color {
-  color: #e1d5f4;
+  color: #333;
 }
 
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.7rem;
-  color: #e1d5f4;
+  color: #8E161C;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
+h3 {
+  /* padding-bottom:0.7rem; */
+  font-size: 1.2rem;
+  color: #4682cb;
+  font-weight: bold;
+}
+
 p {
   text-align: justify;
+  padding-bottom: 1rem;
 }
 
 body {
@@ -125,28 +141,40 @@ body {
 #sidebar ul li a {
   display: block;
   padding: 1rem 0;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #fff;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  color: #333333;
-  background: #D1D1D1;
+  font-weight: bold;
+  background: #8E161C;
+  color: #fff;
 }
 #sidebar ul li a:hover {
-  background: #666;
+  background: #640B0A;
   color: #ffffff;
 }
 #sidebar ul li a:active {
-  background: #333;
+  background: #ce8382;
   color: #ffffff;
 }
 #sidebar ul li a:focus {
-  background: #333;
+  background: #ce8382;
   color: #ffffff;
 }
 
 section {
   padding-left: 1rem;
   padding-right: 1rem;
-  border-bottom: 2px solid grey;
+}
+section h3 {
+  cursor: pointer;
+  border-bottom: 2px solid #4682cb;
+  margin-bottom: 1rem;
+}
+section h3 span {
+  float: right;
+}
+
+.toggle {
+  display: none;
 }

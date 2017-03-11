@@ -1,0 +1,3 @@
+function imprimer(){
+	alert("imprimer")
+}
