@@ -11,10 +11,11 @@ $rouge: #8E161C; .rouge{background: $rouge}.rouge-color{color: $rouge};
 $rougeFonce: #640B0A; .rougeFonce{background: $rougeFonce}.rougeFonce-color{color: $rougeFonce};
 $rougeClair: #ce8382; .rougeClair{background: $rougeClair}.rougeClair-color{color: $rougeClair};
 $bleu: #4682cb; .bleu{background: $bleu}.bleu-color{color: $bleu};
+$orange: #F66A15; .orange{background: $orange}.orange-color{color: $orange};
 $typo: #333; .typo{background: $typo}.typo-color{color: $typo};
 
 
-h2{
+h1{
 	font-weight:bold;
 	text-transform:uppercase;
 	font-size:1.7rem;
@@ -25,10 +26,20 @@ h2{
 	padding-bottom:1rem;
 }
 
+h2{
+	/* padding-bottom:0.7rem; */
+	font-size:1.2rem;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	background: $bleu;
+	padding:1rem;
+}
+
 h3{
 	/* padding-bottom:0.7rem; */
 	font-size:1.2rem;
-	color:$bleu;
+	color:$rouge;
 	font-weight:bold;
 }
 
@@ -90,12 +101,38 @@ body{
 section{
   padding-left:1rem;
   padding-right:1rem;
-  h3{
+  h2{
   	cursor:pointer; 
   	border-bottom: 2px solid #4682cb; 
   	margin-bottom: 1rem;
+  }
+  h3{
+  	margin-bottom: 1rem;
   	span{
-  		float: right;
+  		float:right;
+  	}
+  }
+  .noteImportante{
+  	p{
+  		text-align:center;
+  	}
+  	background:$orange;
+  	color:white;
+
+  	padding:1rem 1rem 0 1rem;
+  	margin-bottom: 1rem;
+
+  	a{
+  		text-decoration: none;
+  		background: white;
+  		color:$rouge;
+  		padding:0 1rem;
+  		font-weight: bold;
+  	}
+  }
+  .content{
+  	img{
+  		padding-bottom: 1rem;
   	}
   }
 }

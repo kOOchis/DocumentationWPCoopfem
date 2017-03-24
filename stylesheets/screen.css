@@ -92,6 +92,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #4682cb;
 }
 
+.orange {
+  background: #F66A15;
+}
+
+.orange-color {
+  color: #F66A15;
+}
+
 .typo {
   background: #333;
 }
@@ -100,7 +108,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #333;
 }
 
-h2 {
+h1 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.7rem;
@@ -109,10 +117,20 @@ h2 {
   padding-bottom: 1rem;
 }
 
+h2 {
+  /* padding-bottom:0.7rem; */
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #4682cb;
+  padding: 1rem;
+}
+
 h3 {
   /* padding-bottom:0.7rem; */
   font-size: 1.2rem;
-  color: #4682cb;
+  color: #8E161C;
   font-weight: bold;
 }
 
@@ -166,13 +184,35 @@ section {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-section h3 {
+section h2 {
   cursor: pointer;
   border-bottom: 2px solid #4682cb;
   margin-bottom: 1rem;
 }
+section h3 {
+  margin-bottom: 1rem;
+}
 section h3 span {
   float: right;
+}
+section .noteImportante {
+  background: #F66A15;
+  color: white;
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem;
+}
+section .noteImportante p {
+  text-align: center;
+}
+section .noteImportante a {
+  text-decoration: none;
+  background: white;
+  color: #8E161C;
+  padding: 0 1rem;
+  font-weight: bold;
+}
+section .content img {
+  padding-bottom: 1rem;
 }
 
 .toggle {

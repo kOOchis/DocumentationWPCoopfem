@@ -4,17 +4,27 @@
 	<title>Documentation Coopération Féminine</title>
 	<link rel="stylesheet" href="./stylesheets/screen.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+	<script src="./javascript/jquery.js"></script>
+
 </head>
 
 <body>
 	<aside id="sidebar">
 		<div id ="fixed" class="fixed">
 			<ul>
-				<li><a href="#Introduction">Introduction</a></li>
 				<li><a href="#Pagehome">Page d'accueil</a></li>
+				<li><a href="#Page">Page Type</a></li>
+				<li><a href="#Partenaire">Partenaire - affiliés</a></li>
+				<li><a href="#Manifestations">Manifestations</a></li>
+				<li><a href="#Activités">Activités</a></li>
+				<li><a href="#Clubs">Nos Clubs</a></li>
+				<li><a href="#Programmes">Programmes</a></li>
+				<li><a href="#Revue">Revue</a></li>
+				<li><a href="#footer">footer</a></li>
 
 
-				<li><a onclick="imprimer();" 
+				<li><a ONCLICK="window.print()" 
 				style="
 					cursor: pointer;
 					background: #4682cb;
@@ -26,55 +36,813 @@
 	</aside>
 
 	<section>
-
-	
-		<div id="Introduction">
-			<h2>
-				Introduction 
-			</h2>
-				<div>
-					<p>
-						Texte d'introduction
-					</p>
-				</div>
-
-			<h3>
-				Sous-titre <!-- <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span> -->
-			</h3>
-				<div>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus malesuada felis quis efficitur. Nunc elit ante, rhoncus at rutrum eget, varius ac lacus. In malesuada eget dui ut feugiat. Integer eu commodo nulla. Donec semper quam dignissim mollis tempor. Morbi nunc arcu, mattis non velit sit amet, aliquet eleifend neque. Fusce euismod suscipit mollis. Etiam mauris mi, auctor ac neque quis, feugiat placerat tellus. Vestibulum dapibus est elit, sit amet auctor sapien finibus ac. Donec id egestas magna. Nunc ac mi ac lacus tempor dignissim.
-					</p>
-				</div>
-		</div>
-
-
-		<div id="pageHome">
-			<h2>
+			
+		<div id="Pagehome">
+			<h1>
 				Page d'accueil du site  
-			</h2>
-				<div>
-					<p>
-						Texte d'introduction
-					</p>
-				</div>
+			</h1>
+			<div class="contentPageHome">
+				<h2>Slider</h2>
+				<h3>
+					Ajouter un slider
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Smart Slider "</span>.
+						</p>
+						<img src="./ressources/slider/slider1.png">
+						
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" sample slider "</span> (le troisième item sur la ligne).
+						</p>
+						<img src="./ressources/slider/slider2.png">
 
-			<h3>
-				Sous-titre <!-- <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span> -->
-			</h3>
-				<div>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus malesuada felis quis efficitur. Nunc elit ante, rhoncus at rutrum eget, varius ac lacus. In malesuada eget dui ut feugiat. Integer eu commodo nulla. Donec semper quam dignissim mollis tempor. Morbi nunc arcu, mattis non velit sit amet, aliquet eleifend neque. Fusce euismod suscipit mollis. Etiam mauris mi, auctor ac neque quis, feugiat placerat tellus. Vestibulum dapibus est elit, sit amet auctor sapien finibus ac. Donec id egestas magna. Nunc ac mi ac lacus tempor dignissim.
-					</p>
-				</div>
-		</div>
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Sur n'importe quel slide présent : cliquez sur
+							<span style="font-weight: bold;">" ... "</span> en haut à droite dans l'image qui apparaîtra au passage de la souris, un menu déroulant va alors s'ouvrir, cliquez sur <span style="font-weight: bold;">" dupliquer "</span>. <br>
+							Une fois le slide dupliqué cliquez dessus, pour afficher le contenu du slide.
+						</p>
+						<img src="./ressources/slider/slider3.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Sur la nouvelle page cliquez sur <span style="font-weight: bold;">" background "</span>.
+						</p>
+						<img src="./ressources/slider/slider4.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span>Changer dans un premier temps l'image en en cliquant sur l'icone vert dans la première ligne appelée <span style="font-weight: bold;">" background "</span>, l'image du slide changera avec celle que vous aurez choisie. <br> Dans un deuxième temps cliquez dans sur le texte en bas de l'image, une fenêtre apparaitra, et tapez votre nouveau texte dans le premier champ.
+						</p>
+						<img src="./ressources/slider/slider5.png"><br>
+						<img src="./ressources/slider/slider6.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">6. </span>Sur la nouvelle page cliquez sur <span style="font-weight: bold;">" settings "</span>.
+						</p>
+						<img src="./ressources/slider/slider7.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">7. </span>Dans un premier temps changer le titre du slide dans le back office dans le premier champ appelé <span style="font-weight: bold;">" Name "</span>,
+							<br> Dans un deuxième temps changer l'image du thumbnail avec la même image que le slide en cliquant sur l'icone vert dans la ligne appelée <span style="font-weight: bold;">" thumbnail "</span>  l'image du thumbnail changera avec celle que vous aurez choisie.
+						</p>
+							<img src="./ressources/slider/slider8.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">8. </span>Sauvegarder les modifications en cliquant sur <span style="font-weight: bold;">" SAVE "</span> en haut à droite de la page. <br>
+							Pour revenir à tout les slider cliquez sur <span style="font-weight: bold;">" SLIDER "</span> se trouvant en haut à gauche de la fenêtre.
+						</p>
+						<img src="./ressources/slider/slider10.png">
+						<img src="./ressources/slider/slider9.png">
+						
+					</div>
+
+
+					<h3>
+						Modifier un slider
+					</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Smart Slider "</span>.
+						</p>
+						<img src="./ressources/slider/slider1.png">
+						
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" sample slider "</span> (le troisième item sur la ligne).
+						</p>
+						<img src="./ressources/slider/slider2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Cliquez sur le slide à modifier et reprenez les étapes de <span style="font-weight: bold;">" Ajouter un slide "</span> selon ce que vous devez modifier.
+						</p>
+						<img src="./ressources/slider/slider3.png">
+						
+					</div>
+
+
+					<h3>
+						Supprimer un slider
+					</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Smart Slider "</span>.
+						</p>
+						<img src="./ressources/slider/slider1.png">
+						
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" sample slider "</span> (le troisième item sur la ligne).
+						</p>
+						<img src="./ressources/slider/slider2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Sur le slide vous voulez supprimer : cliquez sur
+							<span style="font-weight: bold;">" ... "</span> en haut à droite dans l'image qui apparaîtra au passage de la souris, un menu déroulant va alors s'ouvrir, cliquez sur <span style="font-weight: bold;">" suprimer "</span>.
+						</p>
+						<img src="./ressources/slider/slider3.png">
+						
+					</div>
+
+				<h2>Modifier les 3 articles de présentation </h2>
+				<h3>
+					Modifier les 3 articles de présentation
+				</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office cliquez sur <span style="font-weight: bold;">" Présentation "</span>.
+							</p>
+							<img src="./ressources/presentation/presentation1.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur la présentation à modifier.
+							</p>
+							<img src="./ressources/presentation/presentation3.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3. </span>Changez votre texte et ensuite cliquez sur <span style="font-weight: bold;">" mettre à jour "</span> pour sauvegarder les modifications dans le site.
+							</p>
+							<img src="./ressources/presentation/presentation2.png">
+
+						</div>
+
+				<h2>Bandeau </h2>
+				<h3>
+					Modifier le bandeau
+				</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office cliquez sur <span style="font-weight: bold;">" Bandeau "</span>.
+							</p>
+							<img src="./ressources/Bandeau/bandeau1.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Allez ensuite sur l'article <span style="font-weight: bold;">" Bandeau "</span>.
+							</p>
+							<img src="./ressources/Bandeau/bandeau2.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3. </span>Changez votre texte et ensuite cliquez sur <span style="font-weight: bold;">" mettre à jour "</span> pour sauvegarder les modifications dans le site.
+							</p>
+							<img src="./ressources/Bandeau/bandeau4.png">
+						</div>
+
+						<h3>
+							Afficher le bandeau
+						</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office cliquez sur <span style="font-weight: bold;">" Bandeau "</span>.
+							</p>
+							<img src="./ressources/Bandeau/bandeau1.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Allez ensuite sur l'article <span style="font-weight: bold;">" Bandeau "</span>.
+							</p>
+							<img src="./ressources/Bandeau/bandeau2.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3. </span>Changez l'état de publication en cliquant en haut à droite de la page sur <span style="font-weight: bold;">" Modifier "</span> <br> une liste à choix apparrait cliquez sur <span style="font-weight: bold;">" Publié "</span>. 
+							</p>
+							<img src="./ressources/Bandeau/bandeau3.png">
+						</div>
+
+				<h3>
+					Ne plus afficher le bandeau
+				</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office cliquez sur <span style="font-weight: bold;">" Bandeau "</span>.
+							</p>
+							<img src="./ressources/Bandeau/bandeau1.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Allez ensuite sur l'article <span style="font-weight: bold;">" Bandeau "</span>.
+							</p>
+							<img src="./ressources/Bandeau/bandeau2.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3. </span>Changez l'état de publication en cliquant en haut à droite de la page sur <span style="font-weight: bold;">" Modifier "</span> <br> une liste à choix apparrait cliquez sur <span style="font-weight: bold;">" Brouillon "</span>. 
+							</p>
+							<img src="./ressources/Bandeau/bandeau5.png">
+						</div>
+
+				<h2>Quelques activités de la Coopération Féminine </h2>
+						<div class="noteImportante">
+							<p>
+								Je ne traiterai ici que de la modification des articles de type " Activités " présent sur la page home, vous trouverez un chapitre dédié aux " Activité " <a href="#Activités">lien vers activités</a> <br> A noté que seul 3 articles sont affichable sur la page home. 
+							</p>
+						</div>
+						<h3>
+							Modifier les activités de la page home
+						</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office cliquez sur <span style="font-weight: bold;">" Activités "</span><br>
+								les activités présentent sur la page home auront une deuxième catégorie "Page principale" dans la deuxième collonne.
+							</p>
+							<img src="./ressources/Activite/activite1.png">
+							<img src="./ressources/Activite/activite2.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur l'actvité à modifier.
+							</p>
+							<img src="./ressources/Activite/activite2.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3.</span>Pour changer l'image cliquez sur l'image présente actuellement pour changer l'image à la une.
+							</p>
+							<img src="./ressources/Activite/activite3.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">4. </span>Changez votre texte et ensuite cliquez sur <span style="font-weight: bold;">" mettre à jour "</span> pour sauvegarder les modifications dans le site. <br>
+							</p>
+							<img src="./ressources/Activite/activite4.png">
+							<div class="noteImportante">
+								<p>
+									Toute modification affectera l'activité sur la page home, mais aussi dans l'onglet Activités à l'intérieur du site. 
+								</p>
+							</div>
+						</div>
+
+
+				<h2>Événements et Manifestations à venir </h2>
+						<div class="noteImportante">
+							<p>
+								Les calendriers présent sont automatiquement mis sur la page home, je ne traiterai pas ici des actions sur des calendriers de type " Événements " ou " Manifestations ". <br> vous trouverez un chapitre dédié aux " Événements  " <a href="#Programmes">lien vers programmes</a> et un chapitre dédié aux " Manifestations " <a href="#Manifestations">lien vers manifestations</a>
+							</p>
+						</div>
+			</div>
+				
+
+		</div> <!-- fin de page d'acceuil -->
+			
+		<div id="Page">
+			<h1>
+				Page type
+			</h1>
+			<div class="contentPage">
+				<h2> Page ex : Qui sommes nous / Esat handicap / le jardin des Roos</h2>
+				<h3>
+					Ajouter une page type
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Pages "</span>.
+						</p>
+						<img src="./ressources/Pagetype/pagetype1.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Créer une nouvelle page en cliquant sur ajouter <span style="font-weight: bold;">" Ajouter "</span>.
+						</p>
+						<img src="./ressources/Pagetype/pagetype2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Ajouter le titre et le contenu puis faites <span style="font-weight: bold;">" Publier "</span>.
+						</p>
+						<img src="./ressources/Pagetype/pagetype3.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Ajouter la page au menu, cliquer sur <span style="font-weight: bold;">" apparence "</span> puis sur 
+							<span style="font-weight: bold;">" menu "</span>.
+						</p>
+						<img src="./ressources/Pagetype/pagetype4.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span>Sélectionner la page que vous venez de créer et faites la glisser dans le menu que vous aurez choisie.
+						</p>
+						<img src="./ressources/Pagetype/pagetype5.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">6. </span>Publier.
+						</p>
+						<img src="./ressources/Pagetype/pagetype6.png">
+					</div>	
+
+
+			</div>
+				
+
+		</div> <!-- fin de Page type -->	
 
 
 
-	</section>	
+		<div id="Partenaire">
+			<h1>
+				Partenaire - affiliés
+			</h1>
+			<div class="contentPage">
+				<h2>
+					Partenaire - affiliés
+				</h2>
+				<h3>
+					Ajouter un partenaire - affiliés
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" partenaire et affiliés "</span>.
+						</p>
+						<img src="./ressources/Partenaire/partenaire1.png">
 
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>cliquez sur <span style="font-weight: bold;">" ajouter "</span>.
+						</p>
+						<img src="./ressources/Partenaire/partenaire2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>ajouter le titre puis le contenu puis cliquer sur <span style="font-weight: bold;">" publier "</span>.
+						</p>
+					</div>	
+			</div>
+				
+
+		</div> <!-- fin de un partenaire - affiliés-->	
+
+
+		<div id="Manifestations">
+			<h1>
+				Manifestations
+			</h1>
+			<div class="contentPage">
+				<h2>
+					Manifestations
+				</h2>
+				<h3>
+					Ajouter une Manifestation
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Manifestations "</span>.
+						</p>
+						<img src="./ressources/Manifestations/manifestation1.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur  <span style="font-weight: bold;">" Ajouter "</span>.
+						</p>
+						<img src="./ressources/Manifestations/manifestation2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Cliquez sur  la catégorie <span style="font-weight: bold;">" Manifestations "</span>.
+						</p>
+						<img src="./ressources/Manifestations/manifestation3.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Choisissez maintenant le type de manifestations et remplissez les nouveaux champs de textes pour compléter la date, l'horaire et le lieu.
+						</p>
+						<img src="./ressources/Manifestations/manifestation4.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span>Cliquez sur <span style="font-weight: bold;">" Publier "</span> votre manifestations est maintenant en ligne dans l'onglet manifestations et dans la home.
+						</p>
+					</div>	
+
+					<h3>
+						Ajouter un type de manifestation
+					</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" ACF "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation5.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" Manifestations "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation6.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3. </span>Cliquez sur <span style="font-weight: bold;">" 	
+								Type de manifestation "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation7.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">4. </span>Descendendez et allez dans la rubrique <span style="font-weight: bold;">" choix "</span>. Ajoutez le nouveau type de manifestations dans l'ordre que vous aurez choisie en respectant la forme <span style="font-weight: bold;">(Vore texte : Votre texte)</span> .
+							</p>
+							<img src="./ressources/Manifestations/manifestation8.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">5. </span>Cliquez sur <span style="font-weight: bold;">" Mettre à jour "</span> en haut à droite.
+							</p>
+							<img src="./ressources/Manifestations/manifestation9.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">6. </span>Cliquez sur <span style="font-weight: bold;">" Réglages "</span> dans le menu du back office, puis dans le sous menu  <span style="font-weight: bold;">" FacetWP "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation12.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">7. </span>Cliquez sur <span style="font-weight: bold;">" Facettes "</span> dans le menu en haut.
+							</p>
+							<img src="./ressources/Manifestations/manifestation13.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">8. </span>Cliquez sur  <span style="font-weight: bold;">" Réindexez "</span>
+							</p>
+							<img src="./ressources/Manifestations/manifestation10.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">9. </span>Patientez jusqu'au succès de l'indexation qui apparaitra sous le menu du haut.
+							</p>
+							<img src="./ressources/Manifestations/manifestation11.png">
+
+							
+						</div>	
+			</div>
+				
+
+		</div> <!-- fin de Manifestations-->	
+
+
+		<div id="Activités">
+			<h1>
+				Activités
+			</h1>
+			<div class="contentPage">
+				<h2>
+					Activités
+				</h2>
+				<h3>
+					Ajouter une Activité
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Activité "</span>.
+						</p>
+						<img src="./ressources/Activite/activite5.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" Ajouter "</span>.
+						</p>
+						<img src="./ressources/Activite/activite6.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Choisissez la catégorie correspondante.
+						</p>
+						<img src="./ressources/Activite/activite7.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Remplissez l'article.
+						</p>
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span>Cliquez sur <span style="font-weight: bold;">" Publier "</span>.
+						</p>
+						
+					</div>	
+			</div>
+				
+
+		</div> <!-- fin de Activités-->	
+
+
+		<div id="Clubs">
+			<h1>
+				Nos clubs
+			</h1>
+			<div class="contentPage">
+				<h2>
+					Clubs
+				</h2>
+				<h3>
+					Ajouter un club
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Club "</span>.
+						</p>
+						<img src="./ressources/Clubs/club1.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur ajouter <span style="font-weight: bold;">" Ajouter "</span>.
+						</p>
+						<img src="./ressources/Clubs/club2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Cliquez sur la catégorie <span style="font-weight: bold;">" Nos clubs "</span>.
+						</p>
+						<img src="./ressources/Clubs/club3.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Une liste apparaît à choix, choisissez le type de club.
+						</p>
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span>Remplissez l'article.
+						</p>
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">6. </span>Cliquez sur <span style="font-weight: bold;">" Publier "</span>.
+						</p>
+					</div>	
+
+
+					<h3>
+						Ajouter un type de club
+					</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" ACF "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation5.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" Type de club "</span>.
+							</p>
+							<img src="./ressources/Clubs/club4.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3. </span>Cliquez sur <span style="font-weight: bold;">" 	
+								Type de club "</span>.
+							</p>
+							<img src="./ressources/Clubs/club6.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">4. </span>Descendendez et allez dans la rubrique <span style="font-weight: bold;">" choix "</span>. Ajoutez le nouveau type de club dans l'ordre que vous aurez choisie en respectant la forme <span style="font-weight: bold;">(Vore texte : Votre texte)</span> .
+							</p>
+							<img src="./ressources/Clubs/club5.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">5. </span>Cliquez sur <span style="font-weight: bold;">" Mettre à jour "</span> en haut à droite.
+							</p>
+							<img src="./ressources/Manifestations/manifestation9.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">6. </span>Cliquez sur <span style="font-weight: bold;">" Réglages "</span> dans le menu du back office, puis dans le sous menu  <span style="font-weight: bold;">" FacetWP "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation12.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">7. </span>Cliquez sur <span style="font-weight: bold;">" Facettes "</span> dans le menu en haut.
+							</p>
+							<img src="./ressources/Manifestations/manifestation13.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">8. </span>Cliquez sur  <span style="font-weight: bold;">" Réindexez "</span>
+							</p>
+							<img src="./ressources/Manifestations/manifestation10.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">9. </span>Patientez jusqu'au succès de l'indexation qui apparaitra sous le menu du haut.
+							</p>
+							<img src="./ressources/Manifestations/manifestation11.png">
+							
+						</div>	
+			</div>
+				
+
+		</div> <!-- fin de clubs-->	
+
+
+		<div id="Programmes">
+			<h1>
+				Programmes 
+			</h1>
+			<div class="contentPage">
+				<h2>
+					Programmes
+				</h2>
+				<h3>
+					Ajouter un programme
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Cliquez sur <span style="font-weight: bold;">" Programme "</span>.
+						</p>
+						<img src="./ressources/Programmes/programme1.png">
+						
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur ajouter <span style="font-weight: bold;">" Programme "</span>.
+						</p>
+						<img src="./ressources/Programmes/programme2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Cliquez sur la catégorie <span style="font-weight: bold;">" Programme "</span>.
+						</p>
+						<img src="./ressources/Programmes/programme3.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Une liste apparaît à choix, choisissez le club rattaché à la catégorie. Indiquer le lieu, la date et l'horaire.
+						</p>
+						<img src="./ressources/Programmes/programme4.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span>Remplissez l'article.
+						</p>
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">6. </span>Cliquez sur <span style="font-weight: bold;">" Publier "</span>.
+						</p>
+					</div>	
+
+
+					<h3>
+						Ajouter un type de programme de club
+					</h3>
+						<div class="content">
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" ACF "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation5.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" Programmes "</span>.
+							</p>
+							<img src="./ressources/Programmes/programme5.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">3. </span>Cliquez sur <span style="font-weight: bold;">" 	
+								Type de programme de club "</span>.
+							</p>
+							<img src="./ressources/Programmes/programme6.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">4. </span>Descendendez et allez dans la rubrique <span style="font-weight: bold;">" choix "</span>. Ajoutez le nouveau type de programme dans l'ordre que vous aurez choisie en respectant la forme <span style="font-weight: bold;">(Vore texte : Votre texte)</span> .
+							</p>
+							<img src="./ressources/Programmes/programme7.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">5. </span>Cliquez sur <span style="font-weight: bold;">" Mettre à jour "</span> en haut à droite.
+							</p>
+							<img src="./ressources/Manifestations/manifestation9.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">6. </span>Cliquez sur <span style="font-weight: bold;">" Réglages "</span> dans le menu du back office, puis dans le sous menu  <span style="font-weight: bold;">" FacetWP "</span>.
+							</p>
+							<img src="./ressources/Manifestations/manifestation12.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">7. </span>Cliquez sur <span style="font-weight: bold;">" Facettes "</span> dans le menu en haut.
+							</p>
+							<img src="./ressources/Manifestations/manifestation13.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">8. </span>Cliquez sur  <span style="font-weight: bold;">" Réindexez "</span>
+							</p>
+							<img src="./ressources/Manifestations/manifestation10.png">
+
+							<p>
+								<span style="font-weight: bold; color:#8E161C; ">9. </span>Patientez jusqu'au succès de l'indexation qui apparaitra sous le menu du haut.
+							</p>
+							<img src="./ressources/Manifestations/manifestation11.png">
+
+							
+						</div>	
+			</div>
+				
+
+		</div> <!-- fin de Programmes-->	
+
+
+		<div id="Revue">
+			<h1>
+				Revue 
+			</h1>
+			<div class="contentPage">
+				<h2>
+					En couverture
+				</h2>
+				<h3>
+					Modifier en couverture
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Page "</span>.
+						</p>
+						<img src="./ressources/Revue/revue1.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" En couverture "</span>.
+						</p>
+						<img src="./ressources/Revue/revue2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Modifier l'image en cliquant sur l'image à la une en bas à droite.
+						</p>
+						<img src="./ressources/Revue/revue3.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Changer le texte.
+						</p>
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span></span>Cliquez sur <span style="font-weight: bold;">" Mettre à jour "</span>.
+						</p>
+					</div>
+
+				<h2>
+					Sommaire
+				</h2>
+				<h3>
+					Modifier le sommaire
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Page "</span>.
+						</p>
+						<img src="./ressources/Revue/revue1.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" Sommaire "</span>.
+						</p>
+						<img src="./ressources/Revue/revue4.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Modifier l'image en cliquant sur l'image à la une en bas à droite.
+						</p>
+						<img src="./ressources/Revue/revue6.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Changer le texte.
+						</p>
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span></span>Cliquez sur <span style="font-weight: bold;">" Mettre à jour "</span>.
+						</p>
+					</div>	
+
+				<h2>
+					L'édito
+				</h2>
+				<h3>
+					Modifier l'édito
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Page "</span>.
+						</p>
+						<img src="./ressources/Revue/revue1.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" Sommaire "</span>.
+						</p>
+						<img src="./ressources/Revue/revue7.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Modifier l'image en cliquant sur l'image à la une en bas à droite.
+						</p>
+						<img src="./ressources/Revue/revue5.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Changer le texte.
+						</p>
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span></span>Cliquez sur <span style="font-weight: bold;">" Mettre à jour "</span>.
+						</p>
+					</div>	
+			</div>
+				
+
+		</div> <!-- fin de Revue-->	
+
+
+		<div id="footer">
+			<h1>
+				Footer
+			</h1>
+			<div class="contentPage">
+				<h2>
+					Liens utiles 
+				</h2>
+				<h3>
+					Ajouter un lien utile
+				</h3>
+					<div class="content">
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">1. </span>Dans le back-office allez sur <span style="font-weight: bold;">" Slide Footer "</span>.
+						</p>
+						<img src="./ressources/slideFooter/slideFooter1.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">2. </span>Cliquez sur <span style="font-weight: bold;">" Ajouter "</span>.
+						</p>
+						<img src="./ressources/slideFooter/slideFooter2.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">3. </span>Choisissez la catégorie <span style="font-weight: bold;">" sliderFooter "</span>.
+						</p>
+						<img src="./ressources/slideFooter/slideFooter3.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">4. </span>Un nouveau champ URL apparaît, remplissez le avec l'adresse.
+						</p>
+						<img src="./ressources/slideFooter/slideFooter4.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span> cliquez sur ajoutez <span style="font-weight: bold;">" image à la une "</span>, sélectionner le logo dans les médias.
+						</p>
+						<img src="./ressources/slideFooter/slideFooter5.png">
+
+						<p>
+							<span style="font-weight: bold; color:#8E161C; ">5. </span> cliquez sur  <span style="font-weight: bold;">Publiez</span>.
+						</p>
+					</div>
+			</div>
+				
+
+		</div> <!-- fin de footer-->	
+			
+			</section>	
+
+	<script src="./javascript/scroll.js"></script>
 	<script src="./javascript/sectionWidth.js"></script>
-	<script src="./javascript/imprimer.js"></script>
 	<script src="./javascript/toggleSection.js"></script>
 </body>
 </html>
